@@ -1,15 +1,15 @@
 {
-  "name": "@yalesites-org/eslint-config-and-other-formatting",
+  "name": "@namallium/eslint-config-and-other-formatting",
   "version": "0.0.0-development",
   "description": "Linting and formatting config file for YaleSites.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yalesites-org/eslint-config-and-other-formatting.git"
+    "url": "git://github.com/namallium/eslint-config-and-other-formatting.git"
   },
   "bugs": {
-    "url": "https://github.com/yalesites-org/eslint-config-and-other-formatting/issues"
+    "url": "https://github.com/namallium/eslint-config-and-other-formatting/issues"
   },
-  "homepage": "https://github.com/yalesites-org/eslint-config-and-other-formatting",
+  "homepage": "https://github.com/namallium/eslint-config-and-other-formatting",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },

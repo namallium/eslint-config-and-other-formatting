@@ -1,7 +1,7 @@
 module.exports = {
   branches: ['main'],
   repositoryUrl:
-    'git@github.com:yalesites-org/eslint-config-and-other-formatting.git',
+    'git@github.com:namallium/eslint-config-and-other-formatting.git',
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',

@@ -11,7 +11,7 @@ YaleSites projects are expected to follow a consistent linting and formatting co
 
 <details><summary>Prerequisites</summary>
 
-Each environment that needs to pull @yalesites-org packages from GitHub needs to be authenticated using a "Personal Access Token". This only needs to be done once per-environment.
+Each environment that needs to pull @namallium packages from GitHub needs to be authenticated using a "Personal Access Token". This only needs to be done once per-environment.
 
 - Go to `https://github.com/settings/tokens/new`
   - In the "Note" field add something like "YaleSites GitHub Packages"
@@ -29,19 +29,19 @@ Each environment that needs to pull @yalesites-org packages from GitHub needs to
 
 ### Installing the package
 
-There must be a `.npmrc` file in the project root that tells npm to get `@yalesites-org` packages from GitHub rather than npm.
+There must be a `.npmrc` file in the project root that tells npm to get `@namallium` packages from GitHub rather than npm.
 
 - Create a `.npmrc` file in your project root (or modify an existing one) and add the following:
 
 ```bash
-@yalesites-org:registry=https://npm.pkg.github.com
+@namallium:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${YALESITES_BUILD_TOKEN}
 ```
 
 Then you can install the package like any other npm dependency.
 
 ```bash
-npm install --save-dev @yalesites-org/eslint-config-and-other-formatting
+npm install --save-dev @namallium/eslint-config-and-other-formatting
 ```
 
 ## Prettier
@@ -54,7 +54,7 @@ npm install --save-dev @yalesites-org/eslint-config-and-other-formatting
 
 ```js
 module.exports = {
-  ...require('@yalesites-org/eslint-config-and-other-formatting/prettier.config'),
+  ...require('@namallium/eslint-config-and-other-formatting/prettier.config'),
 };
 ```
 
@@ -83,7 +83,7 @@ module.exports = {
 ```js
 module.exports = {
   extends: [
-    '@yalesites-org/eslint-config-and-other-formatting/commitlint.config',
+    '@namallium/eslint-config-and-other-formatting/commitlint.config',
   ],
 };
 ```
@@ -113,7 +113,7 @@ Stylelint must be implemented on projects that define custom stylesheets.
 ```js
 module.exports = {
   extends: [
-    '@yalesites-org/eslint-config-and-other-formatting/stylelint.config',
+    '@namallium/eslint-config-and-other-formatting/stylelint.config',
   ],
 };
 ```
@@ -142,7 +142,7 @@ ESlint must be implemented on projects that define custom javascript.
 
 ```js
 module.exports = {
-  extends: ['@yalesites-org/eslint-config-and-other-formatting'],
+  extends: ['@namallium/eslint-config-and-other-formatting'],
 };
 ```
 
