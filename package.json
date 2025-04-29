@@ -1,6 +1,6 @@
 {
   "name": "@namallium/eslint-config-and-other-formatting",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Linting and formatting config file for YaleSites.",
   "repository": {
     "type": "git",
